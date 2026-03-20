@@ -1,9 +1,9 @@
-@define-color selected-text #BD4924;
-@define-color text #e7aa5a;
-@define-color base #1C0E00; 
-@define-color border #A89984DE;
-@define-color foreground #DF782D;
-@define-color background #1C0E00;
+@define-color selected-text #7fbbb3;
+@define-color text #d3c6aa;
+@define-color base #0d0f14;
+@define-color border #7fbbb3DE;
+@define-color foreground #7fbbb3;
+@define-color background #0d0f14;
 
 window * {
     font-size: 20px;
@@ -29,13 +29,11 @@ window .box-wrapper {
 }
 
 window .search-container {
-  background: #291603;
+  background: #111520;
   border-radius: 10px;
   padding: 18px 20px;
   margin-bottom: 20px;
 }
-
-window .search-container text { }
 
 window .input {
   background: transparent;

@@ -1,0 +1,91 @@
+# ────────────────────────────────────────────────────────────
+# Btop theme - Space Monkey
+# Deep space backgrounds, everforest greens/teal as accents,
+# cosmic purple highlights.
+# ────────────────────────────────────────────────────────────
+
+# Colors should be in 6 or 2 character hexadecimal or single spaced rgb decimal: "#RRGGBB", "#BW" or "0-255 0-255 0-255"
+
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]=""
+
+# Main text color
+theme[main_fg]="#d3c6aa"
+
+# Title color for boxes
+theme[title]="#83c092"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#7fbbb3"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#7fbbb3"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#0d0f14"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#3d4455"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#83c092"
+
+# Cpu box outline color
+theme[cpu_box]="#3d4455"
+
+# Memory/disks box outline color
+theme[mem_box]="#3d4455"
+
+# Net up/down box outline color
+theme[net_box]="#3d4455"
+
+# Processes box outline color
+theme[proc_box]="#3d4455"
+
+# Box divider line and small boxes line color
+theme[div_line]="#3d4455"
+
+# Temperature graph colors
+theme[temp_start]="#83c092"
+theme[temp_mid]="#dbbc7f"
+theme[temp_end]="#e67e80"
+
+# CPU graph colors
+theme[cpu_start]="#7fbbb3"
+theme[cpu_mid]="#c387d6"
+theme[cpu_end]="#e67e80"
+
+# Mem/Disk free meter
+theme[free_start]="#e67e80"
+theme[free_mid]="#dbbc7f"
+theme[free_end]="#a7c080"
+
+# Mem/Disk cached meter
+theme[cached_start]="#7fbbb3"
+theme[cached_mid]="#83c092"
+theme[cached_end]="#a7c080"
+
+# Mem/Disk available meter
+theme[available_start]="#e67e80"
+theme[available_mid]="#dbbc7f"
+theme[available_end]="#a7c080"
+
+# Mem/Disk used meter
+theme[used_start]="#a7c080"
+theme[used_mid]="#dbbc7f"
+theme[used_end]="#e67e80"
+
+# Download graph colors
+theme[download_start]="#a7c080"
+theme[download_mid]="#83c092"
+theme[download_end]="#7fbbb3"
+
+# Upload graph colors
+theme[upload_start]="#c387d6"
+theme[upload_mid]="#7fbbb3"
+theme[upload_end]="#83c092"
+
+# Process box color gradient for threads, mem and cpu usage
+theme[process_start]="#a7c080"
+theme[process_mid]="#c387d6"
+theme[process_end]="#e67e80"
