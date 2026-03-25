@@ -2,5 +2,6 @@
 
 This is Everforest Organic. A cool, but organic, mid-century modern theme for your Omarchy setup on Arch and Hyprland. 
 
-<img width="1600" height="900" alt="everforest- organic screenshot" src="https://github.com/user-attachments/assets/2496e3d9-7889-4702-a506-05d621568db6" />
+<img width="1600" height="900" alt="screenshot-2026-03-25_06-35-12" src="https://github.com/user-attachments/assets/9aefc179-434e-46a3-a883-5eda66e57e24" />
+
 
