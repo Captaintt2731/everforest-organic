@@ -1,41 +1,38 @@
-# Space Monkey — deep space backgrounds, everforest greens/teal as accents,
-# cosmic purple highlights. Foreground warm sand from everforest.
+# Everforest Organic — deep space backgrounds, everforest greens/teal as
+# accents, cosmic purple highlights, warm sand foreground.
 #
-# Semantic roles (Base16-aligned):
-#   accent              = primary UI accent (borders, active states, links)
-#   foreground          = primary text
-#   background          = primary background
-#   color0  black       = deep space void
-#   color1  red         = nebula rose (error/critical)
-#   color2  green       = everforest green (success/positive)
-#   color3  yellow      = everforest gold (warning)
-#   color4  blue        = everforest teal (primary accent/links)
-#   color5  magenta     = cosmic purple (secondary accent)
-#   color6  cyan        = everforest mint (informational)
-#   color7  white       = warm sand (default foreground text)
-#   color8-15           = bright variants
+# Omarchy 4 (Quattro) palette. The old 8-color base16 schema (color0–color15)
+# is no longer read; Quattro's templates resolve these named roles instead and
+# generate the shell, terminals, btop, helix and vscode themes from them.
 
-accent = "#7fbbb3"
-cursor = "#d3c6aa"
-foreground = "#d3c6aa"
-background = "#0d0f14"
-selection_foreground = "#0d0f14"
-selection_background = "#7fbbb3"
+mode = "dark"
 
-color0  = "#1a1e2a"
-color1  = "#e67e80"
-color2  = "#a7c080"
-color3  = "#dbbc7f"
-color4  = "#7fbbb3"
-color5  = "#c387d6"
-color6  = "#83c092"
-color7  = "#d3c6aa"
+accent    = "#7fbbb3"
+selection = "#3d4455"
+muted     = "#5f6675"
 
-color8  = "#3d4455"
-color9  = "#f85552"
-color10 = "#b8cf8f"
-color11 = "#e8ca8f"
-color12 = "#9fcdd6"
-color13 = "#d49fe3"
-color14 = "#99d3a8"
-color15 = "#e8e0cc"
+background        = "#0d0f14"
+dark_background   = "#090b0f"
+darker_background = "#05070a"
+lighter_background = "#1a1e2a"
+
+foreground        = "#d3c6aa"
+dark_foreground   = "#5c6470"
+light_foreground  = "#a79c88"
+bright_foreground = "#e8e0cc"
+
+red     = "#e67e80"
+yellow  = "#dbbc7f"
+orange  = "#e09d7f"
+green   = "#a7c080"
+cyan    = "#83c092"
+blue    = "#7fbbb3"
+magenta = "#c387d6"
+brown   = "#704e3f"
+
+bright_red     = "#f85552"
+bright_yellow  = "#e8ca8f"
+bright_green   = "#b8cf8f"
+bright_cyan    = "#99d3a8"
+bright_blue    = "#9fcdd6"
+bright_magenta = "#d49fe3"

@@ -1,0 +1,41 @@
+# Everforest Organic — see-through shell surfaces.
+#
+# Replaces what waybar.css / walker.css / mako.ini / swayosd.css used to do in
+# Omarchy 3.x, all of which are now one Quickshell process. Only the keys that
+# differ from the generated defaults are listed here — anything omitted falls
+# back to the palette in colors.toml, so this file survives upstream additions
+# to default/themed/shell.toml.tpl.
+
+[bar]
+# The 3.x waybar.css painted the bar rgba(0,0,0,0.0). Keep it as glass.
+background-alpha = 0.0
+
+[hyprland]
+# Teal → cosmic-purple gradient, matched to the Hyprland active border so the
+# lock screen, notifications, popups and menu cards all agree with the WM.
+active-border            = "rgba(7fbbb3de) rgba(c387d6de) 45deg"
+active-border-foreground = "rgba(d3c6aade)"
+
+[popups]
+background-alpha = 0.78
+
+[tooltip]
+background-alpha = 0.85
+
+[notifications]
+background-alpha = 0.80
+
+[launcher]
+background-alpha = 0.72
+scrim-alpha      = 0.35
+
+[menu]
+background-alpha = 0.78
+scrim-alpha      = 0.35
+
+[polkit]
+background-alpha = 0.85
+scrim-alpha      = 0.45
+
+[lock]
+background-alpha = 0.65
